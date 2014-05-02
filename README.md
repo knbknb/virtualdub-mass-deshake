@@ -4,7 +4,7 @@ virtualdub-mass-deshake
 
 <h4> Mass-deshaking videos with the freeware VirtualDub,on Linux. </h4>
 
-VirtualDub will attempt to process all files in an entire directory. Using a bash command line, You specify the directory name and the suffix of thwe newly created output dir.
+VirtualDub will attempt to process all files in an entire directory. Using a bash command line, You specify the directory name and the suffix of the newly created output dir.
 
 On the command line, the call looks like this:
 <code>. ./deshake-all.sh ../myvideo-dir outdir-suffix </code>
