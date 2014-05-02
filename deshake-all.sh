@@ -8,7 +8,7 @@
 #. ./deshake-all.sh ../wakeboard-test bright128
 
 
-# output wiöö then look like this
+# output will then look like this
 #/home/knut/Videos/wakeboard-test
 #Videos\\wakeboard-test
 #C:\\\\users\\knut\\My Documents\\Videos
