@@ -2,8 +2,8 @@ virtualdub-mass-deshake
 =======================
 
 
-<h3> Two scripts for mass-deshaking videos on Linux, using the freeware programs wine and  VirtualDub,  </h3>
- Put all your *.mp4 or *.avi files in a signle directory.
+<h3> Two scripts for mass-deshaking videos on Linux, using the freeware programs wine and  VirtualDub  </h3>
+ Put all your *.mp4 or *.avi files in a single directory.
 
 VirtualDub will attempt to process all files in that directory. Using a bash command line and the .vdscript file provided in this repo, you'll specify the directory name and the suffix of the newly created output dir.
 
