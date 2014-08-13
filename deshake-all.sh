@@ -26,7 +26,9 @@
 #  - Virtualdub > 1.6
 #  - Deshaker Plugin installed
 #  - Virtualdub.exe must be on the wine Path
-# there needs to be a .vdscript file present with the filter settings saved properly.
+#  - perl
+#  - avconv instead of ffmpeg => Ubuntu Linux
+#  -  there needs to be a .vdscript file present with the filter settings saved properly.
 
 # this shellscript runs on Ubuntu Linux with Virtualdub installed under wine.
 if [ $# -lt 1 ]; then
