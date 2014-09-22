@@ -1,7 +1,9 @@
 virtualdub-mass-deshake
 =======================
 
-*Deshaking video* is a common task for the hobbyist photographer. Nearly all sports videos shot on digital cameras,  videos need to be deshaked to make them viewable. This repo contains a script for helping "prosumers" doing this.
+*Deshaking video* is a common task for the hobbyist photographer. Nearly all sports videos shot on digital cameras,  videos need to be deshaked to make them viewable. This repo contains code for helping "prosumers" doing this.
+
+There are two scripts for mass-deshaking videos on Linux, using the freeware programs wine and  VirtualDub.
 
 <h3>Requirements:</h3>
 
@@ -14,7 +16,7 @@ virtualdub-mass-deshake
   - There needs to be a .vdscript file present with the filter settings saved away properly.
 
 
-<h3> Two scripts for mass-deshaking videos on Linux, using the freeware programs wine and  VirtualDub  </h3>
+<h3> How to use.</h3>
  Put all your *.mp4 or *.avi files in a single directory.
 
 VirtualDub will attempt to process all files in that directory. Using a bash command line and the .vdscript file provided in this repo, you'll specify the directory name and the suffix of the newly created output dir.
