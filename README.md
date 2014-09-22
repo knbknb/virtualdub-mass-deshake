@@ -3,7 +3,7 @@ virtualdub-mass-deshake
 
 *Deshaking video* is a common task for the hobbyist photographer. Nearly all sports videos shot on digital cameras,  videos need to be deshaked to make them viewable. This repo contains code for helping "prosumers" doing this.
 
-There are two scripts for mass-deshaking videos on Linux, using the freeware programs wine and  VirtualDub.
+There are two scripts for mass-deshaking videos on the Linux command line, using the freeware programs *wine* and  *VirtualDub*.
 
 <h3>Requirements:</h3>
 
@@ -21,7 +21,7 @@ There are two scripts for mass-deshaking videos on Linux, using the freeware pro
 
 VirtualDub will attempt to process all files in that directory. Using a bash command line and the .vdscript file provided in this repo, you'll specify the directory name and the suffix of the newly created output dir.
 
-On the command line, the call looks like this:
+On the **Linux command line**, the call looks like this:
 <code>. ./deshake-all.sh ../myvideo-dir outdir-suffix </code>
 
 
@@ -30,7 +30,7 @@ For example, with
 
 <code>. ./deshake-all.sh ../wakeboard-test bright128 </code>
 
-...script output will then look like this
+...script output will then look like this (note the weird escaping of line breaks which is due to the linux-windows interaction)
 
     #/home/knut/Videos/wakeboard-test
     #Videos\\wakeboard-test
