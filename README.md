@@ -1,7 +1,19 @@
 virtualdub-mass-deshake
 =======================
 
-<h4 color="red">TODO: Port this Shell-Script to Powershell</h4>
+*Deshaking video* is a common task for the hobbyist photographer. Nearly all sports videos shot on digital cameras,  videos need to be deshaked to make them viewable. This repo contains a script for helping "prosumers" doing this.
+
+<h3>Requirements:</h3>
+
+  - Ubuntu Linux as Operating System
+  - wine 1.x installed into Ubuntu
+  - Virtualdub > 1.6 installed into wine
+  - Deshaker Plugin installed into Virtualdub
+  - Experience with the deshaker plugin
+  - Virtualdub.exe must be on the wine Path
+  - There needs to be a .vdscript file present with the filter settings saved away properly.
+
+
 <h3> Two scripts for mass-deshaking videos on Linux, using the freeware programs wine and  VirtualDub  </h3>
  Put all your *.mp4 or *.avi files in a single directory.
 
@@ -32,12 +44,6 @@ For example, with
 
 and for each video, a VirtualDUb GUI will appear indicating the processing status. Preview windows of the input and output videos are disabled on purpose, because then the script is more robust.
 
-Requirements:
-  - wine 1.x
-  - Virtualdub > 1.6
-  - Deshaker Plugin installed
-  - Virtualdub.exe must be on the wine Path
-  - there needs to be a .vdscript file present with the filter settings saved away properly.
 
 
 
